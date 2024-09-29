@@ -1,0 +1,1873 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://portal.mycodecentral.com/?redirect=0 -->
+<html dir="ltr" lang="en" xml:lang="en" class="yui3-js-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Code Central Student Portal</title>
+        <link rel="shortcut icon" href="https://portal.mycodecentral.com/pluginfile.php/1/theme_theia/favicon/1717964617/newIcon.ico">
+        
+<meta name="keywords" content="moodle, Code Central Student Portal">
+<link rel="stylesheet" type="text/css" href="./Code Central Student Portal_files/combo"><script charset="utf-8" id="yui_3_17_2_1_1726794638192_8" src="./Code Central Student Portal_files/combo(1)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1726794638192_18" src="./Code Central Student Portal_files/combo(2)" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./Code Central Student Portal_files/styles.php">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/portal.mycodecentral.com","sesskey":"0lxAcFVIK7","themerev":"1717964617","slasharguments":1,"theme":"erebus","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1717964617","admin":"admin","svgicons":true,"usertimezone":"America\/Los_Angeles","contextid":2};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/portal.mycodecentral.com\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/portal.mycodecentral.com\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/portal.mycodecentral.com\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/portal.mycodecentral.com\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/portal.mycodecentral.com\/theme\/yui_combo.php?m\/1717964617\/","combine":true,"comboBase":"https:\/\/portal.mycodecentral.com\/theme\/yui_combo.php?","ext":false,"root":"m\/1717964617\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/portal.mycodecentral.com\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/portal.mycodecentral.com\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1717964617\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/portal.mycodecentral.com\/lib\/javascript.php\/1717964617\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/portal.mycodecentral.com\/lib\/javascript.php\/1717964617\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<link href="./Code Central Student Portal_files/all.min.css" rel="stylesheet">
+<script src="./Code Central Student Portal_files/chart.min.js.download"></script>
+<link rel="shortcut icon" type="image/png" href="https://portal.mycodecentral.com/codey.ico">
+<style>
+.nav-item .nav-link {
+color: #94b4ed !important;
+}
+</style><!-- A --><!-- HELLO -->
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+        <link href="./Code Central Student Portal_files/css" rel="stylesheet">
+        <script src="./Code Central Student Portal_files/jquery.min.js.download"></script>
+        <script type="text/javascript" src="./Code Central Student Portal_files/toastr.min.js.download">
+        </script>
+        <script src="./Code Central Student Portal_files/sweetalert2@10"></script><style>.swal2-popup.swal2-toast{flex-direction:column;align-items:stretch;width:auto;padding:1.25em;overflow-y:hidden;background:#fff;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row;padding:0}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-loading{justify-content:center}.swal2-popup.swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}.swal2-popup.swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;margin:0 .625em;padding:0;font-size:1em;text-align:initial}.swal2-popup.swal2-toast .swal2-html-container{padding:.625em 0 0}.swal2-popup.swal2-toast .swal2-html-container:empty{padding:0}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex:1;flex-basis:auto!important;align-self:stretch;width:auto;height:2.2em;height:auto;margin:0 .3125em;margin-top:.3125em;padding:0}.swal2-popup.swal2-toast .swal2-styled{margin:.125em .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(100,150,200,.5)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show,.swal2-container.swal2-noanimation{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:0 0!important}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-no-transition{transition:none!important}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:5px;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center;padding:0 1.8em}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;margin:1.25em auto 0;padding:0}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-loader{display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 transparent #2778c4 transparent}.swal2-styled{margin:.3125em;padding:.625em 1.1em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#2778c4;color:#fff;font-size:1em}.swal2-styled.swal2-deny{border:0;border-radius:.25em;background:initial;background-color:#d14529;color:#fff;font-size:1em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#757575;color:#fff;font-size:1em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;height:.25em;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}.swal2-timer-progress-bar{width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;align-items:center;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:5px;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{transform:none;background:0 0;color:#f27474}.swal2-close:focus{outline:0;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}.swal2-close::-moz-focus-inner{border:0}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0 1.6em;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:#fff;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{flex-shrink:0;margin:0 .4em}.swal2-input-label{display:flex;justify-content:center;margin:1em auto}.swal2-validation-message{align-items:center;justify-content:center;margin:0 -2.7em;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-webkit-keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-container{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent!important}body.swal2-no-backdrop .swal2-container>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-container.swal2-top{top:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-top-left,body.swal2-no-backdrop .swal2-container.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-top-end,body.swal2-no-backdrop .swal2-container.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-container.swal2-center{top:50%;left:50%;transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-left,body.swal2-no-backdrop .swal2-container.swal2-center-start{top:50%;left:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-end,body.swal2-no-backdrop .swal2-container.swal2-center-right{top:50%;right:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom{bottom:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom-left,body.swal2-no-backdrop .swal2-container.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-bottom-end,body.swal2-no-backdrop .swal2-container.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}</style>
+        <link href="./Code Central Student Portal_files/toastr.min.css" type="text/css" rel="stylesheet">
+    <style>.swal2-popup.swal2-toast{flex-direction:column;align-items:stretch;width:auto;padding:1.25em;overflow-y:hidden;background:#fff;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row;padding:0}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-loading{justify-content:center}.swal2-popup.swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}.swal2-popup.swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;margin:0 .625em;padding:0;font-size:1em;text-align:initial}.swal2-popup.swal2-toast .swal2-html-container{padding:.625em 0 0}.swal2-popup.swal2-toast .swal2-html-container:empty{padding:0}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex:1;flex-basis:auto!important;align-self:stretch;width:auto;height:2.2em;height:auto;margin:0 .3125em;margin-top:.3125em;padding:0}.swal2-popup.swal2-toast .swal2-styled{margin:.125em .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(100,150,200,.5)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show,.swal2-container.swal2-noanimation{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:0 0!important}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-no-transition{transition:none!important}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:5px;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center;padding:0 1.8em}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;margin:1.25em auto 0;padding:0}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-loader{display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 transparent #2778c4 transparent}.swal2-styled{margin:.3125em;padding:.625em 1.1em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#2778c4;color:#fff;font-size:1em}.swal2-styled.swal2-deny{border:0;border-radius:.25em;background:initial;background-color:#d14529;color:#fff;font-size:1em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#757575;color:#fff;font-size:1em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;height:.25em;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}.swal2-timer-progress-bar{width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;align-items:center;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:5px;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{transform:none;background:0 0;color:#f27474}.swal2-close:focus{outline:0;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}.swal2-close::-moz-focus-inner{border:0}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0 1.6em;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:#fff;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{flex-shrink:0;margin:0 .4em}.swal2-input-label{display:flex;justify-content:center;margin:1em auto}.swal2-validation-message{align-items:center;justify-content:center;margin:0 -2.7em;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-webkit-keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-container{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent!important}body.swal2-no-backdrop .swal2-container>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-container.swal2-top{top:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-top-left,body.swal2-no-backdrop .swal2-container.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-top-end,body.swal2-no-backdrop .swal2-container.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-container.swal2-center{top:50%;left:50%;transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-left,body.swal2-no-backdrop .swal2-container.swal2-center-start{top:50%;left:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-end,body.swal2-no-backdrop .swal2-container.swal2-center-right{top:50%;right:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom{bottom:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom-left,body.swal2-no-backdrop .swal2-container.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-bottom-end,body.swal2-no-backdrop .swal2-container.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}</style><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="./Code Central Student Portal_files/requirejs.php"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./Code Central Student Portal_files/javascript.php"></script></head>
+
+    <body id="page-site-index" class="format-site course path-site chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam portal-mycodecentral-com pagelayout-base course-1 context-2 drawer-open-left jsenabled" onload="onStart()">
+
+        <div id="page-wrapper">
+
+            <div>
+    <a class="sr-only sr-only-focusable" href="https://portal.mycodecentral.com/?redirect=0#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="./Code Central Student Portal_files/combo(3)"></script><script type="text/javascript" src="./Code Central Student Portal_files/javascript(1).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+
+<nav class="navbar shadow-none navbar-light navbar-expand moodle-has-zindex" aria-label="Site navigation">
+
+    <div data-region="drawer-toggle" class="d-inline-block mr-3">
+        <div aria-expanded="true" aria-controls="nav-drawer" type="button" class="nav-link float-sm-left mr-1 text-light bg-transparent" stype="display: inline-block;" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"></i><span class="sr-only">Side panel</span></div>
+    </div>
+
+    <!-- navbar.mustache controls the navigation -->
+
+
+    <ul class="navbar-nav d-none d-md-flex">
+        <!-- custom_menu -->
+        
+        <!-- page_heading_menu -->
+        
+    </ul>
+    <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item d-flex align-items-center">
+            <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="https://portal.mycodecentral.com/?redirect=0#" tabindex="0" class=" dropdown-toggle icon-no-margin" id="dropdown-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
+                            
+                            <span><span class="usertext mr-1">Kaelin Alexander (Other)</span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+                                        <a href="https://portal.mycodecentral.com/user/edit.php?id=3672" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-1">
+                                                <i class="icon fa fa-user fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                Profile
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://portal.mycodecentral.com/login/logout.php?sesskey=0lxAcFVIK7" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-2">
+                                                <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                Log out
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div>
+        </li>
+    </ul>
+    <!-- search_box -->
+</nav>
+<div id="page" class="container-fluid">
+
+    <div class="top-gradient"></div>
+<header id="page-header" class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex">
+                    <!-- I AM ALIVE -->
+                    <!-- Point A -->
+                        <div class="mr-auto">
+                            <!-- Point B -->
+
+                            <div class="page-context-header"><div class="page-header-headings"><h1>Worksheets</h1></div></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="page-content">
+        <div id="region-main-box">
+
+            <section id="yui_3_17_2_1_1726794638192_25">
+                <span class="notifications" id="user-notifications"></span>
+                <div role="main" id="yui_3_17_2_1_1726794638192_24"><span id="maincontent"></span><style>
+    #loading {
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 2;
+    }
+    #text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 50px;
+        color: white;
+        transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+    }
+</style>
+
+
+<div id="loading" style="display: none;">
+            <div id="text">Loading...</div>
+        </div>
+        
+        
+            <script src="./Code Central Student Portal_files/sweetalert2@10"></script>
+            <script>
+                // Hide the "Action Loading Bar" thingy that no one needs
+                document.getElementById("action-menu-2").remove();
+
+                // Function to update the arrow within to either be right or down
+                function updateArrow(btnClicked) {
+                    var arrow = btnClicked.getElementsByTagName("span")[0];
+                    //if (arrow.className == "fas fa-arrow-right mr-2") {
+                    if (btnClicked.classList.contains("collapsed")) {
+                        arrow.className = "fas fa-arrow-down mr-2";
+                    }
+                    else {
+                        arrow.className = "fas fa-arrow-right mr-2";
+                    }
+                } // End updateArrow
+
+                // Function to initialize the category buttons (only occurs once the level of the student is verified or is an instructor)
+                function catButtonsInit() {
+                    /* Selecting a DIV tag
+                    
+                        Weirdness required from here: https://stackoverflow.com/questions/3871547/js-iterating-over-result-of-getelementsbyclassname-using-array-foreach
+                        And here: https://www.nickang.com/2018-03-06-add-event-listener-for-loop-problem-in-javascript/
+                    */
+                    var categories = document.getElementsByClassName("catBtn");
+                    Array.prototype.forEach.call(categories, function(div, index) {
+                        div.addEventListener("click", function() {
+                            // remove the "selected" class from any div that might have it
+                            for(var i = 0; i < categories.length; i++) {
+                                categories[i].classList.remove("selected");
+                            }
+
+                            // Add selected to self
+                            div.classList.add("selected");
+
+                            // Remove current elements and start the page over with the projects of that category
+                            var coursework = document.getElementById("coursework");
+                            coursework.innerHTML = "";
+
+                            // Get the ID of the category picked to make a parameter for the server call
+                            var params = new FormData();
+                            params.append("catID", div.id);
+
+                            // Check whether this is a category or a pacing button (this will affect the "getProjects" server call)
+                            if (div.classList.contains("semesterGuide")) {
+                                params.append("semesterGuide", true);
+                            }
+
+                            // Prepare a call to the getProjects file to get the projects for this category
+                            var xhrProjects = new XMLHttpRequest();
+                            xhrProjects.open("POST", "getProjects.php", true);
+                            xhrProjects.onload = function() {
+                                // Hide loading screen
+                                document.getElementById("loading").style.display = "none";
+
+                                // Parse response
+                                response = JSON.parse(this.response);
+                                //console.log(response);
+
+                                // Set variable to track current level to know when to swap
+                                var currentLVL = -1;
+
+                                // Variable to act as a String builder
+                                //// Since the tags tend to auto-complete before the data is added
+                                var projectContainer = "";
+
+                                // Variable with the current URL of the worksheets
+                                var worksheetURL = "";
+
+                                // Check if an empty category that students can see
+                                if (response.length != 0) {
+                                    // Check whether to use project card logic or challenge card logic
+                                    if (response[0]["workChallenge"]){
+                                        // Project card link
+                                        worksheetURL = "https://portal.mycodecentral.com/worksheets/pages/pages.php?project=";
+
+                                        projectContainer += '<div class="row">';
+                                        // Loop through every 5 entries as each five will be a new level
+                                        // Subtracting one for testing purposes, put this back in production!!!!!!!!!!!
+                                        for (var i = 0; i < response.length; i += 6) {
+
+                                            // Set the new current level
+                                            currentLVL = response[i]["workLVL"];
+
+                                            // What is the current challenge?
+                                            //// For the "Challenge" button
+                                            currentChallenge = "-1";
+
+                                            // Run through the current 5 challenges and fill them up
+                                            projectContainer += '<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 mb-3">';
+                                            projectContainer += '  <div class="card border-0 rounded">';
+                                            projectContainer += '      <div class="card-header blue-header">';
+                                            projectContainer += '          <p class="card-title mb-0">';
+                                            // Use substrings to get to the actual name
+                                            challengeName = "";
+                                            
+                                            // Variable flag for when past the "Level" section of the string
+                                            pastLevel = false;
+                                            for (var s = 0; s < response[i]["workName"].length; s++) {
+                                                // Check when we are past the point of the level being shown
+                                                if (response[i]["workName"].substring(s, s+1) == "-" && !pastLevel) {
+                                                    // Set the flag to true and force an increment
+                                                    pastLevel = true;
+                                                    s++;
+                                                }
+
+                                                // End the loop when we reach the "["
+                                                if (response[i]["workName"].substring(s, s+1) == "[") {
+                                                    s = response[i]["workName"].length + 1
+                                                }
+
+                                                // Start adding to our name if we are past the point of the level
+                                                //// Else if to potentially prevent an accidental adding of the "["
+                                                else if (pastLevel) {
+                                                    challengeName += response[i]["workName"].substring(s, s+1);
+                                                }
+                                            }
+                                            projectContainer += challengeName + '</p>';
+                                            projectContainer += '  </div>';
+                                            // Create the Card Body
+                                            projectContainer += '<div class="card-body">';
+                                            // Create a row
+                                            projectContainer += '  <div class="row">';
+                                            // Create a column
+                                            projectContainer += '      <div class="col-auto mb-1 d-flex justify-content-center align-items-center">';
+                                                                            // Loop through the 6 challenges to see whats completed or not
+                                                                            var challengeLetter = ['A', 'B', 'C', 'D', 'E', 'F'];
+                                                                            for(var y = 0; y < 6; y++) {
+                                                                                // A locked challenge
+                                                                                if (response[i+y]["workID"] == "-1") {
+                                                                                    projectContainer += '                    <a class="circle locked m-2">';
+                                                                                    projectContainer += '                        🔒';
+                                                                                    projectContainer += '                    </a>';
+                                                                                }
+                                                                                // A graded challenge
+                                                                                else if (response[i+y]["workGrade"] == 2) {
+                                                                                    projectContainer += '<a target="_blank" href="' + worksheetURL + response[i+y]["workID"] + "&id=" + response[i+y]["challenge"][y] + '" class="circle completed m-2">';
+                                                                                    projectContainer += '✔️';
+                                                                                    projectContainer += '</a>';
+                                                                                }
+                                                                                // An available challenge
+                                                                                else if (response[i+y]["workGrade"] == 0 || response[i+y]["workGrade"] == 3) {
+                                                                                    // Set the current challenge to this one
+                                                                                    currentChallenge = response[i+y]["challenge"][y];
+
+                                                                                    projectContainer += '<a target="_blank" href="' + worksheetURL + response[i+y]["workID"] + "&id=" + currentChallenge + '" class="circle m-2">';
+                                                                                    projectContainer += challengeLetter[y];
+                                                                                    projectContainer += '</a>';
+                                                                                }
+                                                                            }
+                                                                                                                
+                                                                        projectContainer += '</div>';
+                                                                        projectContainer += '<div class="col">';
+                                                                            projectContainer += '<a target="_blank" href="' + worksheetURL + response[i]["workID"] + "&id=" + response[i]["lectureChallenge"] + '" class="btn btn-stats btn-block">Concept</a>';
+                                                                            projectContainer += '<a target="_blank" href="' + worksheetURL + response[i]["workID"] + "&id=" + response[i]["exampleChallenge"] + '" class="btn btn-stats btn-block">Example</a>';
+                                                                            projectContainer += '<a target="_blank" href="' + worksheetURL + response[i]["workID"] + "&id=" + currentChallenge + '" class="btn btn-stats btn-block">Challenge</a>';
+                                                                        projectContainer += '</div>';
+                                                                    projectContainer += '</div>';
+                                                                projectContainer += '</div>';
+                                            projectContainer += '<div class="card-footer text-muted">';
+                                                projectContainer += 'Category: ' + challengeName + ' ▸ Level ' + currentLVL;         
+                                             projectContainer += '</div>';
+                                            projectContainer += '</div>';
+
+
+                                            // Check if its the last entry, if so then make sure to close the div tag here
+                                            projectContainer += "</div>";
+                                        }
+                                    }
+                                    else {
+                                        // Project card link
+                                        worksheetURL = "https://portal.mycodecentral.com/worksheets/index.php?id=";
+
+                                        // Loop through the response to populate the field
+                                        for (var i = 0; i < response.length; i++) {
+
+                                            // Check if we are in a new level and need to set a header and new div
+                                            if (currentLVL != response[i]["workLVL"]) {
+
+                                                // Set the new current level
+                                                currentLVL = response[i]["workLVL"];
+
+                                                
+                                                // This will run after the first level to close the old div tags
+                                                //// (is not needed for level 1 projects since there were no DIVS before it)
+                                                if (currentLVL != 0) {
+                                                    projectContainer += "</div>";
+                                                    projectContainer += "<br>";
+                                                }
+
+                                                // Show the header for the new level
+                                                projectContainer += "<h3>" + response[i]["levelWeek"] +  " " + currentLVL + "</h3>";
+
+                                                // Display the projectContainer DIV
+                                                //// Changes whether project or challenge
+                                                projectContainer += '<div class="row mb-3">';
+                                            }
+
+                                            // Check if there was teacher feedback
+                                            //// If so, print it!
+                                            feedbackAccordion = "";
+                                            if ((response[i]["worksheetNote"] != null && response[i]["worksheetNote"] != "") || (response[i]["challengeNote"] != null && response[i]["challengeNote"] != "")) {
+                                                // Which note is it?
+                                                feedbackNote = "";
+                                                if (response[i]["worksheetNote"] != null && response[i]["worksheetNote"] != "") {
+                                                    feedbackNote = response[i]["worksheetNote"];
+                                                }
+                                                else {
+                                                    feedbackNote = response[i]["challengeNote"];
+                                                }
+
+                                                // Prepare the accordion
+                                                feedbackAccordion = `
+                                                    <div id="accordionFeedback` + response[i]["workID"] + `">
+                                                        <div class="card">
+                                                            <div class="card-header" id="heading` + response[i]["workID"] + `">
+                                                                <h5 class="mb-0">
+                                                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#card` + response[i]["workID"] + `" aria-expanded="false" aria-controls="card` + response[i]["workID"] + `" onclick="updateArrow(this)">
+                                                                        See Feedback: <span id="arrow" class="fas fa-arrow-right mr-2"></span>
+                                                                    </button>
+                                                                </h5>
+                                                            </div>
+
+                                                            <div id="card` + response[i]["workID"] + `" class="collapse" aria-labelledby="heading` + response[i]["workID"] + `" data-parent="#accordion` + response[i]["workID"] + `">
+                                                                <div class="card-body">
+                                                                    ` + feedbackNote + `
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                `;
+                                            }
+
+                                            // Check whether the assignment is unavailable
+                                            //// (generally through not being a high enough level)
+                                            //// Show the unavailable card
+                                            if (response[i]["workID"] == "-1") {
+                                                projectContainer += '<div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">';
+                                                projectContainer += '    <div class="card border-0 rounded card-locked text-center">';
+                                                projectContainer += '        <div class="card-header">';
+                                                projectContainer += '            Project Locked';
+                                                projectContainer += '        </div>';
+                                                projectContainer += '        <div class="card-body">';
+                                                projectContainer += '            <h3 class="card-title">' + response[i]["workName"] + '</h3>';
+                                                projectContainer += '            <button class="btn btn-lg btn-block btn-project" disabled>🔒</button>';
+                                                projectContainer += '        </div>';
+                                                projectContainer += '    </div>';
+                                                projectContainer += '</div>';
+                                            }
+                                            
+                                            // Check if the assignment is marked completed to show a completed card
+                                            else if (response[i]["workGrade"] == 2) {
+                                                // Determine the percentage or words for the "projectPercent" cell
+                                                var progressMessage;
+                                                var progressWidth = 0;
+                                                var progressColor = "";
+                                                if (response[i]["checkpointAmount"] == -1) {
+                                                    progressMessage = "Not completed";
+                                                    progressWidth = 100;
+                                                    progressColor = "bg-danger";
+                                                }
+                                                else if (response[i]["checkpointAmount"] == -99) {
+                                                    // -99 Means there is no quiz to be done, "Complete" is all it will say
+                                                    if (response[i]["totalAttempts"] == -99) {
+                                                        progressMessage = "Completed";
+                                                        progressWidth = 100;
+                                                        progressColor = "bg-primary";
+                                                    }
+                                                    else if (response[i]["totalAttempts"] == -98 && response[i]["practicePercent"] == -99) {
+                                                        progressMessage = "Completed: Quiz Available";
+                                                        progressWidth = 100;
+                                                        progressColor = "bg-yellow";
+                                                    }
+                                                    else if (response[i]["practicePercent"] != -99) {
+                                                        progressMessage = response[i]["practicePercent"].toString() + "%";
+                                                        progressWidth = response[i]["practicePercent"];
+                                                        progressColor = "bg-primary";
+                                                    }
+                                                }
+                                                else {
+                                                    progressWidth = response[i]["comprehensionScore"];
+                                                    progressMessage = response[i]["comprehensionScore"].toString() + "%"; // Add the percent symbol so the teacher can see it
+                                                    progressColor = "bg-primary";
+                                                }
+
+                                                projectContainer += '<div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">';
+                                                projectContainer += '    <div class="card border-0 rounded card-project text-center">';
+                                                projectContainer += '        <div class="card-header project-completed">';
+                                                projectContainer += '            Project Completed';
+                                                projectContainer += '        </div>';
+                                                projectContainer += '        <div class="card-body">';
+                                                projectContainer += '            <h3 class="card-title">' + response[i]["workName"] + '</h3>';
+
+                                                projectContainer += '            Project Score:';
+                                                projectContainer += '            <div class="progress" style="border-radius: 3px; height: 25px; position: relative">';
+                                                projectContainer += '                   <div style="z-index: 1; text-align: center; margin: auto; color: black;">' + progressMessage + '</div>';
+                                                projectContainer += '                   <div class="progress-bar ' + progressColor + '" role="progressbar" style="position: absolute; height: 100%; width: ' + progressWidth + '%;"></div>';
+                                                projectContainer += '               </div>';
+                                                
+                                                projectContainer += '            <a target="_blank" href="' + worksheetURL + response[i]["workID"] + '" class="btn mt-3 btn-lg btn-block btn-project">REVIEW</a>';
+                                                projectContainer += '        </div>';
+                                                
+                                                projectContainer +=           feedbackAccordion;
+
+                                                projectContainer += '    </div>';
+                                                projectContainer += '</div>';
+                                            }
+
+                                            // Check if the project has been skipped
+                                            else if (response[i]["workGrade"] == 3) {
+                                                projectContainer += '<div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">';
+                                                projectContainer += '    <div class="card border-0 rounded card-project text-center">';
+                                                projectContainer += '        <div class="card-header project-skipped">';
+                                                projectContainer += '            Project Skipped';
+                                                projectContainer += '        </div>';
+                                                projectContainer += '        <div class="card-body">';
+                                                projectContainer += '            <h3 class="card-title">' + response[i]["workName"] + '</h3>';
+                                                projectContainer += '            <a target="_blank" href="' + worksheetURL + response[i]["workID"] + '" class="btn mt-3 btn-lg btn-block btn-project">BEGIN</a>';
+                                                projectContainer += '        </div>';
+                                                projectContainer += '    </div>';
+                                                projectContainer += '</div>';
+                                            }
+
+                                            // Check if there was an ignored submission (if this is here and the work grade is not complete, then we know it is in need of trying again)
+                                            else if (response[i]["reviewed"] == 0) {
+                                                projectContainer += '<div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">';
+                                                projectContainer += '    <div class="card border-0 rounded card-project text-center">';
+                                                projectContainer += '        <div class="card-header project-review">';
+                                                projectContainer += '            Review Submission';
+                                                projectContainer += '        </div>';
+                                                projectContainer += '        <div class="card-body">';
+                                                projectContainer += '            <h3 class="card-title">' + response[i]["workName"] + '</h3>';
+                                                projectContainer += '            <a target="_blank" href="' + worksheetURL + response[i]["workID"] + '" class="btn mt-3 btn-lg btn-block btn-project">REVIEW</a>';
+                                                projectContainer += '        </div>';
+                                                projectContainer +=           feedbackAccordion;
+                                                projectContainer += '    </div>';
+                                                projectContainer += '</div>';
+                                            }
+
+                                            // Check if project is under review
+                                            else if (response[i]["reviewed"] == 1) {
+                                                projectContainer += '<div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">';
+                                                projectContainer += '    <div class="card border-0 rounded card-project text-center">';
+                                                projectContainer += '        <div class="card-header project-reviewing">';
+                                                projectContainer += '            Under Review';
+                                                projectContainer += '        </div>';
+                                                projectContainer += '        <div class="card-body">';
+                                                projectContainer += '            <h3 class="card-title">' + response[i]["workName"] + '</h3>';
+                                                projectContainer += '            <a target="_blank" href="' + worksheetURL + response[i]["workID"] + '" class="btn mt-3 btn-lg btn-block btn-project">REVIEW</a>';
+                                                projectContainer += '        </div>';
+                                                projectContainer += '    </div>';
+                                                projectContainer += '</div>';
+                                            }
+
+                                            // Check if an available project that isnt completed
+                                            else if (response[i]["workGrade"] == 0) {
+                                                projectContainer += '<div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">';
+                                                projectContainer += '    <div class="card border-0 rounded card-project text-center">';
+                                                projectContainer += '        <div class="card-body">';
+                                                projectContainer += '            <h3 class="card-title">' + response[i]["workName"] + '</h3>';
+                                                projectContainer += '            <p class="card-text mt-3">';
+                                                projectContainer += '                <button class="btn btn-rewards" disabled>XP: ' + response[i]["workXP"] + '</button>';
+                                                projectContainer += '                <button class="btn btn-rewards" disabled>Crypto: ' + response[i]["workPoints"] + '</button>';
+                                                projectContainer += '            </p>';
+                                                projectContainer += '            <a target="_blank" href="' + worksheetURL + response[i]["workID"] + '" class="btn btn-lg btn-block btn-project">BEGIN</a>';
+                                                projectContainer += '        </div>';
+                                                projectContainer += '    </div>';
+                                                projectContainer += '</div>';
+                                            }
+
+                                            // Check if its the last entry, if so then make sure to close the div tag here
+                                            if (i == response.length - 1) {
+                                                projectContainer += "</div>";
+                                                projectContainer += "<br>";
+                                            }
+                                        }
+                                    }
+                                }
+                                else {
+                                    projectContainer += '<div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">';
+                                    projectContainer += '    <div class="card border-0 rounded card-locked text-center">';
+                                    projectContainer += '        <div class="card-header">';
+                                    projectContainer += '            Project Locked';
+                                    projectContainer += '        </div>';
+                                    projectContainer += '        <div class="card-body">';
+                                    projectContainer += '            <h3 class="card-title">Coming Soon!</h3>';
+                                    projectContainer += '            <button class="btn btn-lg btn-block btn-project" disabled>🔒</button>';
+                                    projectContainer += '        </div>';
+                                    projectContainer += '    </div>';
+                                    projectContainer += '</div>';
+                                }
+
+                                // Set the newly built string to the innerHTML
+                                coursework.innerHTML = projectContainer;
+                            };
+
+                            // Show loading screen in case it takes a little while
+                            document.getElementById("loading").style.display = "block";
+
+                            // Send the call
+                            xhrProjects.send(params);
+                        });
+                    });
+                } // end catButtonsInit
+
+                /* Code from https://stackoverflow.com/questions/58788955/horizontal-click-and-drag-scrolling-with-js-prevent-click-on-mouseup */
+                function onStart() {
+
+                    // Hide the "Loading" bar
+                    document.getElementById("loading").style.display = "none";
+
+                    const slider = document.querySelector("#courseRow");
+                    
+                    const preventClick = (e) => {
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+                    }
+
+                    let isDown = false;
+                    let isDragged = false;
+                    let startX;
+                    let scrollLeft;
+
+                    /* For the mouse scrolling */
+                    slider.addEventListener("mousedown", e => {
+                        isDown = true;
+                        slider.classList.add("active");
+                        startX = e.pageX - slider.offsetLeft;
+                        scrollLeft = slider.scrollLeft;
+                    });
+
+                    slider.addEventListener("mouseleave", () => {
+                        isDown = false;
+                        slider.classList.remove("active");
+                    });
+
+                    slider.addEventListener("mouseup", (e) => {
+                        isDown = false;
+                        const elements = document.querySelectorAll(".col");
+                        if (isDragged) {
+                            for (let i = 0; i < elements.length; i++) {
+                            elements[i].addEventListener("click", preventClick);
+                            }
+                        } else {
+                            for (let i = 0; i < elements.length; i++) {
+                            elements[i].removeEventListener("click", preventClick);
+                            }
+                        }
+                        slider.classList.remove("active");
+                        isDragged = false;
+                    });
+
+                    slider.addEventListener("mousemove", e => {
+                        if (!isDown) return;
+                        isDragged = true;
+                        e.preventDefault();
+                        const x = e.pageX - slider.offsetLeft;
+                        const walk = (x - startX) * 2;
+                        slider.scrollLeft = scrollLeft - walk;
+                        //console.log(walk);
+                    });
+
+                    slider.addEventListener("wheel", e => {
+                        startX = e.pageX - slider.offsetLeft;
+                        const x = e.deltaY - slider.offsetLeft;
+                        const walk = (x - startX) * 2;
+                        slider.scrollLeft = scrollLeft - walk;
+                        console.log(walk);
+                    });
+
+
+                    /* For scrolling on mobile */
+
+                    slider.addEventListener("touchstart", e => {
+                        startX = e.pageX - slider.offsetLeft;
+                        scrollLeft = slider.scrollLeft;
+                    });
+
+                    slider.addEventListener("touchmove", e => {
+                        e.preventDefault();
+                        const x = e.pageX - slider.offsetLeft;
+                        const walk = (x - startX) * 2;
+                        slider.scrollLeft = scrollLeft - walk;
+                    });
+
+
+                    // Prepare call to check student level
+                    var xhrGet = new XMLHttpRequest();
+                    xhrGet.open('POST', 'checkNew.php', true);
+                    xhrGet.onload = function() {
+                        //console.log(this.response);
+                        //var response = JSON.parse(this.response);
+
+                        // prompts the user if they are new or just initializes the buttons if not
+                        if (this.response == "new") {
+                            // Welcome them to portal!
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Welcome to Portal!',
+                                html: 'Your journey starts now! Many epic coding projects are coming your way.',
+                                allowOutsideClick: false,
+                                allowEscapeKey: false,
+                                allowEnterKey: false,
+                                stopKeydownPropagation: false,
+                                keydownListenCapture: false,
+                                showCancelButton: false,
+                                confirmButtonText: 'Get Started!'
+                            }).then((result) => {
+                                /* Read more about isConfirmed, isDenied below */
+                                if (result.isConfirmed) {
+                                    catButtonsInit();
+                                } else {
+                                    catButtonsInit();
+                                }
+                            })
+                        }
+                        else {
+                            catButtonsInit();
+                        }
+                    };
+
+                    // Send the call
+                    xhrGet.send();
+
+    
+                }
+            </script>
+        
+            
+            <!-- Scrolable Category Options -->
+                <!-- [DO NOT TOUCH] Alert Module -->
+            <div class="row mb-2">
+                <div class="col-xl-3 col-lg-6 col-sm-6">
+                    <div class="card border-0 rounded mb-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="icon-avatar bg-light-info me-2">
+                                        <div class="avatar-content">
+                                            <i class="fas fa-level-up-alt "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <h4 class="user-stat-text">1</h4>
+                                    <p class="card-title mb-0">Current Level</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-6">
+                    <div class="card border-0 rounded mb-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="icon-avatar bg-light-yellow me-2">
+                                        <div class="avatar-content">
+                                            <i class="fa fa-gamepad"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <h4 class="user-stat-text">0/100</h4>
+                                    <p class="card-title mb-0">Current EXP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-6">
+                    <div class="card border-0 rounded mb-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="icon-avatar bg-light-success me-2">
+                                        <div class="avatar-content">
+                                            <i class="fa fa-money"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <h4 class="user-stat-text">183</h4>
+                                    <p class="card-title mb-0">Crypto Earned</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-6">
+                    <div class="card border-0 rounded mb-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="icon-avatar bg-light-primary me-2">
+                                        <div class="avatar-content">
+                                            <i class="fa fa-keyboard-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <h4 class="user-stat-text">0</h4>
+                                    <p class="card-title mb-0">WPM Score</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    
+    
+                    <div class="row mb-3" id="yui_3_17_2_1_1726794638192_23">
+                <div class="col-xl-12" id="yui_3_17_2_1_1726794638192_22">
+                    <div class="card border-0 rounded mb-3 mb-xl-0" id="yui_3_17_2_1_1726794638192_21">
+                        <div class="card-body" id="yui_3_17_2_1_1726794638192_20">
+            <div class="container-fluid" id="catArea">
+
+                <div class="horizontal-scrollable" id="yui_3_17_2_1_1726794638192_19">
+                    <div class="text-center row" id="courseRow">
+    <button class="btn m-2 catBtn semesterGuide 18" id="1">6-8 Pacing Guide</button><button class="btn m-2 catBtn semesterGuide 18" id="2">Grad Pacing Guide</button><button class="btn m-2 catBtn 18 selected" id="24">Godot Game Development</button><button class="btn m-2 catBtn 18" id="25">Frontend Web Development</button><button class="btn m-2 catBtn 18" id="42">Electrical Engineering</button><button class="btn m-2 catBtn 18" id="48">Flowcharting/Pseudocode</button><button class="btn m-2 catBtn 18" id="26">Python Challenges</button><button class="btn m-2 catBtn 18" id="47">Python Documentation</button><button class="btn m-2 catBtn 18" id="46">Debugging</button><button class="btn m-2 catBtn 18" id="51">Python Matplotlib</button><button class="btn m-2 catBtn 18" id="57">Python Web Development</button><button class="btn m-2 catBtn 18" id="49">The Digital Citizen</button><button class="btn m-2 catBtn 18" id="50">The Cyber Defender</button><button class="btn m-2 catBtn 18" id="58">GitHub: The Programming Portfolio</button><button class="btn m-2 catBtn 18" id="54">Scripting Quizzes/Tests</button>
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div id="coursework"><h3>Level 0</h3><div class="row mb-3"><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-project text-center">        <div class="card-body">            <h3 class="card-title">Godot Special Considerations</h3>            <p class="card-text mt-3">                <button class="btn btn-rewards" disabled="">XP: 0</button>                <button class="btn btn-rewards" disabled="">Crypto: 0</button>            </p>            <a target="_blank" href="https://portal.mycodecentral.com/worksheets/index.php?id=406" class="btn btn-lg btn-block btn-project">BEGIN</a>        </div>    </div></div></div><br><h3>Level 1</h3><div class="row mb-3" id="yui_3_17_2_1_1726794638192_30"><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12" id="yui_3_17_2_1_1726794638192_29">    <div class="card border-0 rounded card-project text-center" id="yui_3_17_2_1_1726794638192_28">        <div class="card-body" id="yui_3_17_2_1_1726794638192_27">            <h3 class="card-title">Text-Based Number Guessing Game</h3>            <p class="card-text mt-3">                <button class="btn btn-rewards" disabled="">XP: 25</button>                <button class="btn btn-rewards" disabled="">Crypto: 170</button>            </p>            <a target="_blank" href="https://portal.mycodecentral.com/worksheets/index.php?id=224" class="btn btn-lg btn-block btn-project" id="yui_3_17_2_1_1726794638192_26">BEGIN</a>        </div>    </div></div><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-project text-center">        <div class="card-body">            <h3 class="card-title">Text-Based Choose Your Own Adventure Game</h3>            <p class="card-text mt-3">                <button class="btn btn-rewards" disabled="">XP: 25</button>                <button class="btn btn-rewards" disabled="">Crypto: 140</button>            </p>            <a target="_blank" href="https://portal.mycodecentral.com/worksheets/index.php?id=225" class="btn btn-lg btn-block btn-project">BEGIN</a>        </div>    </div></div></div><br><h3>Level 2</h3><div class="row mb-3"><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-locked text-center">        <div class="card-header">            Project Locked        </div>        <div class="card-body">            <h3 class="card-title">2D UFO Clicker Game</h3>            <button class="btn btn-lg btn-block btn-project" disabled="">🔒</button>        </div>    </div></div></div><br><h3>Level 3</h3><div class="row mb-3"><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-locked text-center">        <div class="card-header">            Project Locked        </div>        <div class="card-body">            <h3 class="card-title">2D Collect Game</h3>            <button class="btn btn-lg btn-block btn-project" disabled="">🔒</button>        </div>    </div></div><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-locked text-center">        <div class="card-header">            Project Locked        </div>        <div class="card-body">            <h3 class="card-title">2D Pac-Clam</h3>            <button class="btn btn-lg btn-block btn-project" disabled="">🔒</button>        </div>    </div></div></div><br><h3>Level 4</h3><div class="row mb-3"><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-locked text-center">        <div class="card-header">            Project Locked        </div>        <div class="card-body">            <h3 class="card-title">2D Dodge Game</h3>            <button class="btn btn-lg btn-block btn-project" disabled="">🔒</button>        </div>    </div></div><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-locked text-center">        <div class="card-header">            Project Locked        </div>        <div class="card-body">            <h3 class="card-title">2D Maze Game</h3>            <button class="btn btn-lg btn-block btn-project" disabled="">🔒</button>        </div>    </div></div></div><br><h3>Level 5</h3><div class="row mb-3"><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-locked text-center">        <div class="card-header">            Project Locked        </div>        <div class="card-body">            <h3 class="card-title">2D Brick-Breaker Game</h3>            <button class="btn btn-lg btn-block btn-project" disabled="">🔒</button>        </div>    </div></div><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-locked text-center">        <div class="card-header">            Project Locked        </div>        <div class="card-body">            <h3 class="card-title">3D Simple Maze Game</h3>            <button class="btn btn-lg btn-block btn-project" disabled="">🔒</button>        </div>    </div></div><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-locked text-center">        <div class="card-header">            Project Locked        </div>        <div class="card-body">            <h3 class="card-title">2D Snek Game</h3>            <button class="btn btn-lg btn-block btn-project" disabled="">🔒</button>        </div>    </div></div></div><br><h3>Level 6</h3><div class="row mb-3"><div class="mb-3  col-xl-3 col-lg-6 col-md-12 col-sm-12 col-xs-12">    <div class="card border-0 rounded card-locked text-center">        <div class="card-header">            Project Locked        </div>        <div class="card-body">            <h3 class="card-title">2D Cookie Clicker Challenge</h3>            <button class="btn btn-lg btn-block btn-project" disabled="">🔒</button>        </div>    </div></div></div><br></div>
+        
+        
+    
+</div>
+            </section>
+        </div>
+    </div>
+</div>
+
+        <div id="message-drawer-66ecb80aec0f766ecb80ae9d1e5" class="message-drawer bg-light hidden" aria-expanded="false" aria-hidden="true" data-region="message-drawer" role="region">
+    <div class="header-container position-relative" data-region="header-container">
+        <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-contacts">
+            <div class="d-flex align-items-center">
+                <div class="align-self-stretch">
+                    <a class="h-100 d-flex align-items-center mr-2" href="https://portal.mycodecentral.com/?redirect=0#" data-route-back="">
+                        <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                        <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>                    </a>
+                </div>
+                <div>
+                    Contacts
+                </div>
+                <div class="ml-auto">
+                    <a href="https://portal.mycodecentral.com/?redirect=0#" data-route="view-search">
+                        <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>        
+        <div class="hidden bg-white position-relative border-bottom px-2 py-2" aria-hidden="true" data-region="view-conversation">
+            <div class="hidden" data-region="header-content"></div>
+            <div class="hidden" data-region="header-edit-mode">
+                
+                <div class="d-flex p-2 align-items-center">
+                    Messages selected:
+                    <span class="ml-1" data-region="message-selected-court">1</span>
+                    <button type="button" class="ml-auto close" aria-label="" data-action="cancel-edit-mode">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+            </div>
+            <div data-region="header-placeholder">
+                <div class="d-flex">
+                    <div class="align-self-stretch">
+                        <a class="h-100 mr-2 d-flex align-items-center" href="https://portal.mycodecentral.com/?redirect=0#" data-route-back="">
+                            <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                            <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>                        </a>
+                    </div>
+                    <div class="ml-2 rounded-circle bg-pulse-grey align-self-center" style="height: 38px; width: 38px">
+                    </div>
+                    <div class="ml-2 " style="flex: 1">
+                        <div class="mt-1 bg-pulse-grey w-75" style="height: 16px;">
+                        </div>
+                    </div>
+                    <div class="ml-2 bg-pulse-grey align-self-center" style="height: 16px; width: 20px">
+                    </div>
+                </div>
+            </div>
+            <div class="hidden position-absolute" data-region="confirm-dialogue-container" style="top: 0; bottom: -1px; right: 0; left: 0; background: rgba(0,0,0,0.3);"></div>
+        </div>        <div class="border-bottom px-2 py-3" aria-hidden="false" data-region="view-overview">
+            <div class="d-flex align-items-center">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text pr-0 bg-white">
+                            <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control border-left-0" placeholder="Search" aria-label="Search" data-region="view-overview-search-input">
+                </div>
+                <div class="ml-2">
+                    <a href="https://portal.mycodecentral.com/?redirect=0#" data-route="view-settings" data-route-param="3672">
+                        <i class="icon fa fa-cog fa-fw " aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="text-right mt-3">
+                <a href="https://portal.mycodecentral.com/?redirect=0#" data-route="view-contacts">
+                    <i class="icon fa fa-user fa-fw " aria-hidden="true"></i>
+                    Contacts
+                    <span class="badge bg-primary ml-2 hidden" data-region="contact-request-count">
+                        0
+                    </span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="hidden border-bottom px-2 py-3 view-search" aria-hidden="true" data-region="view-search">
+            <div class="d-flex align-items-center">
+                <a class="mr-2 align-self-stretch d-flex align-items-center" href="https://portal.mycodecentral.com/?redirect=0#" data-route-back="" data-action="cancel-search">
+                    <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                    <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>                </a>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Search" data-region="search-input">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" data-action="search">
+                            <span data-region="search-icon-container">
+                                <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                            </span>
+                            <span class="hidden" data-region="loading-icon-container">
+                                <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-settings">
+            <div class="d-flex align-items-center">
+                <div class="align-self-stretch">
+                    <a class="h-100 d-flex mr-2 align-items-center" href="https://portal.mycodecentral.com/?redirect=0#" data-route-back="">
+                        <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                        <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>                    </a>
+                </div>
+                <div>
+                    Settings
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body-container position-relative" data-region="body-container">
+        
+        <div class="hidden" data-region="view-contact" aria-hidden="true">
+            <div class="p-2 pt-3" data-region="content-container"></div>
+        </div>        <div class="hidden h-100" data-region="view-contacts" aria-hidden="true" data-user-id="3672">
+            <div class="d-flex flex-column h-100">
+                <div class="p-3 border-bottom">
+                    <ul class="nav nav-pills nav-fill" role="tablist">
+                        <li class="nav-item">
+                            <a id="contacts-tab-66ecb80aec0f766ecb80ae9d1e5" class="nav-link active" href="https://portal.mycodecentral.com/?redirect=0#contacts-tab-panel-66ecb80aec0f766ecb80ae9d1e5" data-toggle="tab" data-action="show-contacts-section" role="tab" aria-controls="contacts-tab-panel-66ecb80aec0f766ecb80ae9d1e5" aria-selected="true">
+                                Contacts
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="requests-tab-66ecb80aec0f766ecb80ae9d1e5" class="nav-link" href="https://portal.mycodecentral.com/?redirect=0#requests-tab-panel-66ecb80aec0f766ecb80ae9d1e5" data-toggle="tab" data-action="show-requests-section" role="tab" aria-controls="requests-tab-panel-66ecb80aec0f766ecb80ae9d1e5" aria-selected="false">
+                                Requests
+                                <span class="badge bg-primary ml-2 hidden" data-region="contact-request-count">
+                                    0
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content d-flex flex-column h-100">
+                            <div class="tab-pane fade show active h-100 lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="3672" id="contacts-tab-panel-66ecb80aec0f766ecb80ae9d1e5" data-section="contacts" role="tabpanel" aria-labelledby="contacts-tab-66ecb80aec0f766ecb80ae9d1e5">
+            <div class="hidden text-center p-2" data-region="empty-message-container">
+                <p class="text-muted mt-2">
+                    No contacts
+                </p>
+            </div>
+            <div class="hidden list-group" data-region="content-container">
+                
+            </div>
+            <div class="list-group" data-region="placeholder-container">
+                
+            </div>
+            <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+            </div>
+        </div>
+        
+                            <div class="tab-pane fade h-100 lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="3672" id="requests-tab-panel-66ecb80aec0f766ecb80ae9d1e5" data-section="requests" role="tabpanel" aria-labelledby="requests-tab-66ecb80aec0f766ecb80ae9d1e5">
+            <div class="hidden text-center p-2" data-region="empty-message-container">
+                <p class="text-muted mt-2">
+                    No contact requests
+                </p>
+            </div>
+            <div class="hidden list-group" data-region="content-container">
+                
+            </div>
+            <div class="list-group" data-region="placeholder-container">
+                
+            </div>
+            <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>        
+        <div class="view-conversation hidden h-100" aria-hidden="true" data-region="view-conversation" data-user-id="3672" data-midnight="1726729200" style="overflow-y: auto; overflow-x: hidden">
+            <div class="position-relative h-100" data-region="content-container" style="overflow-y: auto; overflow-x: hidden">
+                <div class="p-3 text-center hidden" data-region="contact-request-sent-message-container">
+                    <p class="m-0">Contact request sent</p>
+                    <p class="font-italic font-weight-light" data-region="text"></p>
+                </div>
+                <div class="content-message-container hidden h-100 px-2 pb-2 pt-0" data-region="content-message-container" role="log" style="overflow-y: auto; overflow-x: hidden">
+                    <div class="hidden text-center p-3" data-region="more-messages-loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</div>
+                </div>
+                <div class="p-4 w-100 h-100 hidden position-absolute" data-region="confirm-dialogue-container" style="top: 0; background: rgba(0,0,0,0.3);">
+                    
+                    <div class="p-3 bg-white" data-region="confirm-dialogue" role="alert">
+                        <h3 class="h6 hidden" data-region="dialogue-header"></h3>
+                        <p class="text-muted" data-region="dialogue-text"></p>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-block">
+                            <span data-region="dialogue-button-text">Block</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-unblock">
+                            <span data-region="dialogue-button-text">Unblock</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-remove-contact">
+                            <span data-region="dialogue-button-text">Remove</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-add-contact">
+                            <span data-region="dialogue-button-text">Add</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-selected-messages">
+                            <span data-region="dialogue-button-text">Delete</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-conversation">
+                            <span data-region="dialogue-button-text">Delete</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="request-add-contact">
+                            <span data-region="dialogue-button-text">Send contact request</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="accept-contact-request">
+                            <span data-region="dialogue-button-text">Accept and add to contacts</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-block hidden" data-action="decline-contact-request">
+                            <span data-region="dialogue-button-text">Decline</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-block" data-action="cancel-confirm">Cancel</button>
+                    </div>
+                </div>
+                <div class="px-2 pb-2 pt-0" data-region="content-placeholder">
+                    <div class="h-100 d-flex flex-column">
+                        <div class="px-2 pb-2 pt-0 bg-light h-100" style="overflow-y: auto">
+                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                        </div>
+                    </div>                </div>
+            </div>
+        </div>
+        
+        <div class="hidden" aria-hidden="true" data-region="view-group-info">
+            <div class="pt-3 h-100 d-flex flex-column" data-region="group-info-content-container" style="overflow-y: auto"></div>
+        </div>        <div class="h-100 view-overview-body" aria-hidden="false" data-region="view-overview" data-user-id="3672">
+            <div id="message-drawer-view-overview-container" class="d-flex flex-column h-100" style="overflow-y: auto">
+                    
+                    
+                    <div class="section border-0 card" data-region="view-overview-favourites">
+                        <div id="view-overview-favourites-toggle" class="card-header p-0" data-region="toggle">
+                            <button class="btn btn-link w-100 text-left p-2 d-flex align-items-center overview-section-toggle collapsed" data-toggle="collapse" data-target="#view-overview-favourites-target" aria-expanded="false" aria-controls="view-overview-favourites-target">
+                                <span class="collapsed-icon-container">
+                                    <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"></i>
+                                </span>
+                                <span class="expanded-icon-container">
+                                    <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"></i>
+                                </span>
+                                <span class="font-weight-bold">Starred</span>
+                                <small class="hidden ml-1" data-region="section-total-count-container">
+                                    (<span data-region="section-total-count"></span>)
+                                </small>
+                                <span class="hidden ml-2" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+                                </span>
+                                <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                    
+                                </span>
+                            </button>
+                        </div>
+                                            <div class="collapse border-bottom  lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="3672" id="view-overview-favourites-target" aria-labelledby="view-overview-favourites-toggle" data-parent="#message-drawer-view-overview-container">
+                        <div class="hidden text-center p-2" data-region="empty-message-container">
+                            <p class="text-muted mt-2">
+                                        </p><p class="text-muted mt-2">No starred conversations</p>
+
+                            <p></p>
+                        </div>
+                        <div class="hidden list-group" data-region="content-container">
+                            
+                        </div>
+                        <div class="list-group" data-region="placeholder-container">
+                                    <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</div>
+
+                        </div>
+                        <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    
+                    <div class="section border-0 card" data-region="view-overview-group-messages">
+                        <div id="view-overview-group-messages-toggle" class="card-header p-0" data-region="toggle">
+                            <button class="btn btn-link w-100 text-left p-2 d-flex align-items-center overview-section-toggle collapsed" data-toggle="collapse" data-target="#view-overview-group-messages-target" aria-expanded="false" aria-controls="view-overview-group-messages-target">
+                                <span class="collapsed-icon-container">
+                                    <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"></i>
+                                </span>
+                                <span class="expanded-icon-container">
+                                    <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"></i>
+                                </span>
+                                <span class="font-weight-bold">Group</span>
+                                <small class="hidden ml-1" data-region="section-total-count-container">
+                                    (<span data-region="section-total-count"></span>)
+                                </small>
+                                <span class="hidden ml-2" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+                                </span>
+                                <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                    
+                                </span>
+                            </button>
+                        </div>
+                                            <div class="collapse border-bottom  lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="3672" id="view-overview-group-messages-target" aria-labelledby="view-overview-group-messages-toggle" data-parent="#message-drawer-view-overview-container">
+                        <div class="hidden text-center p-2" data-region="empty-message-container">
+                            <p class="text-muted mt-2">
+                                        </p><p class="text-muted mt-2">No group conversations</p>
+
+                            <p></p>
+                        </div>
+                        <div class="hidden list-group" data-region="content-container">
+                            
+                        </div>
+                        <div class="list-group" data-region="placeholder-container">
+                                    <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</div>
+
+                        </div>
+                        <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    
+                    <div class="section border-0 card" data-region="view-overview-messages">
+                        <div id="view-overview-messages-toggle" class="card-header p-0" data-region="toggle">
+                            <button class="btn btn-link w-100 text-left p-2 d-flex align-items-center overview-section-toggle collapsed" data-toggle="collapse" data-target="#view-overview-messages-target" aria-expanded="false" aria-controls="view-overview-messages-target">
+                                <span class="collapsed-icon-container">
+                                    <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"></i>
+                                </span>
+                                <span class="expanded-icon-container">
+                                    <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"></i>
+                                </span>
+                                <span class="font-weight-bold">Private</span>
+                                <small class="hidden ml-1" data-region="section-total-count-container">
+                                    (<span data-region="section-total-count"></span>)
+                                </small>
+                                <span class="hidden ml-2" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+                                </span>
+                                <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                    
+                                </span>
+                            </button>
+                        </div>
+                                            <div class="collapse border-bottom  lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="3672" id="view-overview-messages-target" aria-labelledby="view-overview-messages-toggle" data-parent="#message-drawer-view-overview-container">
+                        <div class="hidden text-center p-2" data-region="empty-message-container">
+                            <p class="text-muted mt-2">
+                                        </p><p class="text-muted mt-2">No private conversations</p>
+
+                            <p></p>
+                        </div>
+                        <div class="hidden list-group" data-region="content-container">
+                            
+                        </div>
+                        <div class="list-group" data-region="placeholder-container">
+                                    <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</div>
+
+                        </div>
+                        <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        
+        <div data-region="view-search" aria-hidden="true" class="h-100 hidden" data-user-id="3672" data-users-offset="0" data-messages-offset="0" style="overflow-y: auto">
+            <div class="hidden" data-region="search-results-container" style="overflow-y: auto">
+                
+                <div class="d-flex flex-column">
+                    <div class="mb-3 bg-white" data-region="all-contacts-container">
+                        <div data-region="contacts-container" class="pt-2">
+                            <h4 class="h6 px-2">Contacts</h4>
+                            <div class="list-group" data-region="list"></div>
+                        </div>
+                        <div data-region="non-contacts-container" class="pt-2 border-top">
+                            <h4 class="h6 px-2">Non-contacts</h4>
+                            <div class="list-group" data-region="list"></div>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-link text-primary" data-action="load-more-users">
+                                <span data-region="button-text">Load more</span>
+                                <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bg-white" data-region="messages-container">
+                        <h4 class="h6 px-2 pt-2">Messages</h4>
+                        <div class="list-group" data-region="list"></div>
+                        <div class="text-right">
+                            <button class="btn btn-link text-primary" data-action="load-more-messages">
+                                <span data-region="button-text">Load more</span>
+                                <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="hidden p-3 text-center" data-region="no-results-container">No results</p>
+                </div>            </div>
+            <div class="hidden" data-region="loading-placeholder">
+                <div class="text-center pt-3 icon-size-4"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</div>
+            </div>
+            <div class="p-3 text-center" data-region="empty-message-container">
+                <p>Search people and messages</p>
+            </div>
+        </div>        
+        <div class="h-100 hidden bg-white" aria-hidden="true" data-region="view-settings">
+            <div class="hidden" data-region="content-container">
+                
+                <div data-region="settings" class="p-3">
+                    <h3 class="h6 font-weight-bold">Privacy</h3>
+                    <p>You can restrict who can message you</p>
+                    <div data-preference="blocknoncontacts" class="mb-3">
+                            <div class="custom-control custom-radio mb-2">
+                                <input type="radio" name="message_blocknoncontacts" class="custom-control-input" id="block-noncontacts-66ecb80aec0f766ecb80ae9d1e5-1" value="1">
+                                <label class="custom-control-label ml-2" for="block-noncontacts-66ecb80aec0f766ecb80ae9d1e5-1">
+                                    My contacts only
+                                </label>
+                            </div>
+                            <div class="custom-control custom-radio mb-2">
+                                <input type="radio" name="message_blocknoncontacts" class="custom-control-input" id="block-noncontacts-66ecb80aec0f766ecb80ae9d1e5-0" value="0">
+                                <label class="custom-control-label ml-2" for="block-noncontacts-66ecb80aec0f766ecb80ae9d1e5-0">
+                                    My contacts and anyone in my courses
+                                </label>
+                            </div>
+                    </div>
+                
+                    <div class="hidden" data-region="notification-preference-container">
+                        <h3 class="mb-2 mt-4 h6 font-weight-bold">Notification preferences</h3>
+                    </div>
+                
+                    <h3 class="mb-2 mt-4 h6 font-weight-bold">General</h3>
+                    <div data-preference="entertosend">
+                        <span class="switch">
+                            <input type="checkbox" id="enter-to-send-66ecb80aec0f766ecb80ae9d1e5">
+                            <label for="enter-to-send-66ecb80aec0f766ecb80ae9d1e5">
+                                Use enter to send
+                            </label>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div data-region="placeholder-container">
+                
+                <div class="d-flex flex-column p-3">
+                    <div class="w-25 bg-pulse-grey h6" style="height: 18px"></div>
+                    <div class="w-75 bg-pulse-grey mb-4" style="height: 18px"></div>
+                    <div class="mb-3">
+                        <div class="w-100 d-flex mb-3">
+                            <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                            <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                        </div>
+                        <div class="w-100 d-flex mb-3">
+                            <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                            <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                        </div>
+                        <div class="w-100 d-flex mb-3">
+                            <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                            <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                        </div>
+                    </div>
+                    <div class="w-50 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                    <div class="mb-4">
+                        <div class="w-100 d-flex mb-2 align-items-center">
+                            <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                            <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                        </div>
+                        <div class="w-100 d-flex mb-2 align-items-center">
+                            <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                            <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                        </div>
+                    </div>
+                    <div class="w-25 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                    <div class="mb-3">
+                        <div class="w-100 d-flex mb-2 align-items-center">
+                            <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                            <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                        </div>
+                    </div>
+                </div>            </div>
+        </div>    </div>
+    <div class="footer-container position-relative" data-region="footer-container">
+        
+        <div class="hidden border-top bg-white position-relative" aria-hidden="true" data-region="view-conversation" data-enter-to-send="0">
+            <div class="hidden p-2" data-region="content-messages-footer-container">
+                
+                <div class="d-flex mt-1">
+                    <textarea data-region="send-message-txt" class="form-control bg-light" rows="3" data-auto-rows="" data-min-rows="3" data-max-rows="5" role="textbox" aria-label="Write a message..." placeholder="Write a message..." style="resize: none"></textarea>
+                    <button class="btn btn-link btn-icon icon-size-3 ml-1 mt-auto" aria-label="Send message" data-action="send-message">
+                        <span data-region="send-icon-container"><i class="icon fa fa-paper-plane fa-fw " aria-hidden="true"></i></span>
+                        <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hidden p-2" data-region="content-messages-footer-edit-mode-container">
+                
+                <div class="d-flex p-3 justify-content-end">
+                    <button class="btn btn-link btn-icon my-1 icon-size-4" data-action="delete-selected-messages" data-toggle="tooltip" data-placement="top" title="Delete selected messages">
+                        <span data-region="icon-container"><i class="icon fa fa-trash fa-fw " aria-hidden="true"></i></span>
+                        <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                        <span class="sr-only">Delete selected messages</span>
+                    </button>
+                </div>            </div>
+            <div class="hidden bg-secondary p-3" data-region="content-messages-footer-require-contact-container">
+                
+                <div class="p-3 bg-white">
+                    <p data-region="title"></p>
+                    <p class="text-muted" data-region="text"></p>
+                    <button type="button" class="btn btn-primary btn-block" data-action="request-add-contact">
+                        <span data-region="dialogue-button-text">Send contact request</span>
+                        <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hidden bg-secondary p-3" data-region="content-messages-footer-require-unblock-container">
+                
+                <div class="p-3 bg-white">
+                    <p class="text-muted" data-region="text">You have blocked this user in the past</p>
+                    <button type="button" class="btn btn-primary btn-block" data-action="request-unblock">
+                        <span data-region="dialogue-button-text">Unblock user</span>
+                        <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Loading" aria-label="Loading"></i></span>
+</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hidden bg-secondary p-3" data-region="content-messages-footer-unable-to-message">
+                
+                <div class="p-3 bg-white">
+                    <p class="text-muted" data-region="text">You are unable to message this user</p>
+                </div>
+            </div>
+            <div class="p-2" data-region="placeholder-container">
+                <div class="d-flex">
+                    <div class="bg-pulse-grey w-100" style="height: 80px"></div>
+                    <div class="mx-2 mb-2 align-self-end bg-pulse-grey" style="height: 20px; width: 20px"></div>
+                </div>            </div>
+            <div class="hidden position-absolute" data-region="confirm-dialogue-container" style="top: -1px; bottom: 0; right: 0; left: 0; background: rgba(0,0,0,0.3);"></div>
+        </div>    </div>
+</div>
+        <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex " aria-hidden="false" tabindex="-1">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 p-3">
+                        <div class="card rounded" back="">
+                            <div class="card-body text-center">
+                                <div class="brand">
+                                    <a href="https://portal.mycodecentral.com/" class="has-logo
+                            ">
+                                            <span class="logo d-none d-sm-inline">
+                                                <img width="85%" src="./Code Central Student Portal_files/CodeCentral-logo-header.png" alt="Portal">
+                                            </span>
+            
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="m-0">
+            
+            <ul class="list-group metismenu">
+                        <li class="list-group-item list-group-item-action " data-key="myhome">
+                            <a href="https://portal.mycodecentral.com/my/">
+                                    <span>
+                                        <i class="icon fa fa-tv fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                <span class="text m-l-0">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action active font-weight-bold" data-key="home">
+                            <a href="https://portal.mycodecentral.com/?redirect=0">
+                                    <span>
+                                        <i class="icon fa fa-home fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                <span class="text m-l-0">Course Home</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="ongoing">
+                            <a href="https://portal.mycodecentral.com/ongoing.php">
+                                    <span>
+                                        <i class="icon fa fa-toolbox fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                <span class="text m-l-0">Lego Engineering</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="practicearena">
+                            <a href="https://portal.mycodecentral.com/practicearena">
+                                    <span>
+                                        <i class="icon fa fa-gamepad fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                <span class="text m-l-0">Practice Arena</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="typingvaidator">
+                            <a href="https://portal.mycodecentral.com/typingvalidator">
+                                    <span>
+                                        <i class="icon fa fas fa-keyboard fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                <span class="text m-l-0">Typing Validator</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="leaderboard">
+                            <a href="https://portal.mycodecentral.com/highscore.php">
+                                    <span>
+                                        <i class="icon fa fa-award fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                <span class="text m-l-0">Leaderboard</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="rewards">
+                            <a href="https://mycodecentral.com/rewards-center">
+                                    <span>
+                                        <i class="icon fa fa-gift fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                <span class="text m-l-0">Rewards Center</span>
+                            </a>
+                        </li>
+            </ul>
+            <!-- FIND ME PLES -->
+        </div>
+        
+        <footer class="main-footer">
+            <div class="row">
+                <div class="col-8">
+                    <div class="footer-left">
+                        Copyright ©
+                        <script>
+                            var year = new Date().getFullYear();
+                            document.write(year);
+        
+                        </script>2024
+                        - Code Central Student Portal (<a href="https://portal.mycodecentral.com/privacy.php" target="_blank">Privacy Policy</a> | <a href="https://portal.mycodecentral.com/terms.php" target="_blank">Terms of Service</a>)
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="footer-right d-flex">
+                        <div class="tool_usertours-resettourcontainer mr-2"></div>
+                        Version 1.0.6
+                    </div>
+                </div>
+            </div>
+        
+            <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://portal.mycodecentral.com/lib/requirejs.php/1717964617/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://portal.mycodecentral.com/lib/javascript.php/1717964617/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://portal.mycodecentral.com/lib/javascript.php/1717964617/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://portal.mycodecentral.com/lib/javascript.php/1717964617/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="./Code Central Student Portal_files/javascript(2).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://portal.mycodecentral.com/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Audio Player": "Audio Player",
+ "Video Player": "Video Player",
+ "Play": "Play",
+ "Pause": "Pause",
+ "Replay": "Replay",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Progress Bar": "Progress Bar",
+ "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "Volume Level": "Volume Level",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected",
+ "captions settings": "captions settings",
+ "subtitles settings": "subititles settings",
+ "descriptions settings": "descriptions settings",
+ "Text": "Text",
+ "White": "White",
+ "Black": "Black",
+ "Red": "Red",
+ "Green": "Green",
+ "Blue": "Blue",
+ "Yellow": "Yellow",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Background",
+ "Window": "Window",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-Transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Font Size",
+ "Text Edge Style": "Text Edge Style",
+ "None": "None",
+ "Raised": "Raised",
+ "Depressed": "Depressed",
+ "Uniform": "Uniform",
+ "Dropshadow": "Dropshadow",
+ "Font Family": "Font Family",
+ "Proportional Sans-Serif": "Proportional Sans-Serif",
+ "Monospace Sans-Serif": "Monospace Sans-Serif",
+ "Proportional Serif": "Proportional Serif",
+ "Monospace Serif": "Monospace Serif",
+ "Casual": "Casual",
+ "Script": "Script",
+ "Small Caps": "Small Caps",
+ "Reset": "Reset",
+ "restore all settings to the default values": "restore all settings to the default values",
+ "Done": "Done",
+ "Caption Settings Dialog": "Caption Settings Dialog",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+ "End of dialog window.": "End of dialog window."
+});
+
+    });
+});;
+
+require(['jquery', 'core_message/message_drawer'], function($, MessageDrawer) {
+    var root = $('#message-drawer-66ecb80aec0f766ecb80ae9d1e5');
+    MessageDrawer.init(root);
+});
+;
+
+            require(['theme_boost/loader']);
+            require(['theme_boost/drawer'], function(mod) {
+            mod.init();
+            });
+
+
+        ;
+require(["core/notification"], function(amd) { amd.init(2, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });;
+require(["core/page_global"], function(amd) { amd.init(); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random66ecb80ae9d1e6'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random66ecb80ae9d1e6'); });
+})();
+//]]>
+</script>
+
+        </footer>
+        </div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><!-- Ends .page-wrapper -->
+
+        
+
+        </body></html>

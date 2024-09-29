@@ -1,0 +1,44 @@
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+img {
+    border-radius: 50%;
+    width: 50%;
+    height: 25%;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(17, 20, 62);
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+}
+
+#header {
+    background-color:blanchedalmond;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color:black;
+
+}
+
+#list {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(93, 100, 73);
+    padding: 10px;
+    margin-left: 35%;
+}
+
+#navlinks {
+    position: fixed;
+}
+
+#footer {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(19, 19, 41);
+    text-align: center;
+    background-color:aquamarine;
+}
